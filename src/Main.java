@@ -17,6 +17,7 @@ public class Main {
 
 
         //Calculation
+        /*
         int Operation = 0;
         switch(operation.toLowerCase()) {
             case "multiplication":
@@ -39,8 +40,29 @@ public class Main {
                 System.out.println("Error: Invalid Operation");
                 break;
         }
+         */
 
-        System.out.println("Answer: " + Operation);
+
+        //Enhanced switch Calculation
+        var result = switch (operation.toLowerCase()) {
+            case "multiplication" -> number1*number2;
+            case "addition" -> number1 + number2;
+            case "subtraction" -> number1 - number2;
+            case "division" -> number2 == 0 ? "Error: Cannot divide by zero." : (double)number1/(double)number2;
+            default -> "Error: Invalid Operation";
+        };
+
+        if(result instanceof String) {
+            System.out.println((String)result);
+        } else if(result instanceof Double) {
+            System.out.printf("Result: %.2f", (Double)result);
+        } else {
+            System.out.println("Result: " + result);
+        }
+
+
+        //System.out.println("Result: " + result);
+        //System.out.println("Answer: " + Operation);
 
         //System.out.println("Method: " + operation);
         //System.out.println("Number 1: " + number1);

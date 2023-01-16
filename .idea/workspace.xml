@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4b08b1e-ee09-4095-b6c2-73c0705497c7" name="Changes" comment="Calculator can now calculate.">
+    <list default="true" id="c4b08b1e-ee09-4095-b6c2-73c0705497c7" name="Changes" comment="Calculator can now calculate even better.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -82,12 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673854919848</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Calculator can now calculate better.">
+      <created>1673855273290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673855273290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Big Test" />
     <MESSAGE value="Calculator can now calculate." />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator can now calculate." />
+    <MESSAGE value="Calculator can now calculate better." />
+    <MESSAGE value="Calculator can now calculate even better." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator can now calculate even better." />
   </component>
 </project>
