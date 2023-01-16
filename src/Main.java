@@ -17,7 +17,7 @@ public class Main {
 
 
         //Calculation
-        int Operation;
+        int Operation = 0;
         switch(operation.toLowerCase()) {
             case "multiplication":
                 Operation = number1 * number2;
@@ -29,10 +29,15 @@ public class Main {
                 Operation = number1 - number2;
                 break;
             case "division":
-                Operation = number1 / number2;
+                if(number2 == 0) {
+                    System.out.println("Error: Cannot divide by zero.");
+                    break;
+                }
+                Operation = (int) Math.round(number1 / (double) number2);
                 break;
             default:
-                Operation = 0;
+                System.out.println("Error: Invalid Operation");
+                break;
         }
 
         System.out.println("Answer: " + Operation);
